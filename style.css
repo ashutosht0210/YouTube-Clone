@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.dark-mode {
+    color: white;
+    background-color: #0f0f0f;
+}
+
+/* Navigation Bar */
+
+.nav-bar {
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    color: white;
+    background-color: #0f0f0f;
+}
+
+.menu-bar {
+    margin-left: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.nav-bar i {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.nav-bar img {
+    cursor: pointer;
+}
+
+.yt-logo {
+    
+    width: 123px;
+    background-size: contain;
+    background-repeat: none;
+    margin-left: 10px;
+}
+
+.search-container {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-grow: 1;
+    max-width: 632px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-input {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #121212;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    flex-grow: 1;
+}
+
+.search-input input {
+    background-color: #121212;
+    height: 24px;
+    margin-left: 10px;
+    border: none;
+    flex-grow: 1;
+    color: white;
+}
+
+.search-input input:focus {
+    outline: none;
+}
+
+.search-btn {
+    height: 40px;
+    width: 64px;
+    text-align: center;
+    align-content: center;
+    background-color: #212121;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.mic-icon {
+    border: none;
+    height: 40px;
+    width: 40px;
+    background-color: #212121;
+    border-radius: 50%;
+    color: white;
+    margin-left: 20px;
+
+}
+
+.user-container {
+    height: auto;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bell {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+}
+
+.profile {
+    background-color: #212121;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    align-content: center;
+
+}
+
+.profile i {
+    font-size: 20px;
+}
+
+.glow:hover {
+    background-color: rgba(255, 255, 255, 0.199);;
+}
+
