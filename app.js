@@ -68,7 +68,7 @@ const videoSection = document.querySelector('.video-section')
 
 videos.forEach(video => {
   videoSection.innerHTML += `
-    <div class="video glow">
+    <div class="video glow-dark">
         <img class="thumbnail" src=${video.thumbnail}>
         <div class="title">
             <div class="channel-logo">
@@ -81,7 +81,12 @@ videos.forEach(video => {
                 <div class="channel-name">${video.channel}</div>
                 <div class="views">${video.views} • ${video.time}</div>
             </div>
-            <i class="fa-solid fa-ellipsis-vertical"></i>
+            <div class="channel-logo">
+                <div class="three-dots glow">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+            
         </div>
     </div>
   `

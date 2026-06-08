@@ -326,6 +326,14 @@
     align-content: center;
 }
 
+.three-dots {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+}
+
 .title i {
     font-size: 20px;
 }
