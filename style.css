@@ -255,7 +255,8 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    
+    position: sticky;
+    top: 60px;
 }
 
 .suggestion {
