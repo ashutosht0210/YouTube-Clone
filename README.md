@@ -4,6 +4,12 @@ A browser-based YouTube homepage clone built with vanilla HTML, CSS, and JavaScr
 
 ---
 
+## 🔗 Live Demo
+
+👉 [Live Link](https://ashutosht0210.github.io/YouTube-Clone/)
+
+---
+
 ## 📁 Project Structure
 
 ```
