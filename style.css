@@ -244,10 +244,11 @@
 /* Content Area */
 
 .content {
-    background-color: pink;
-    min-height: 200vh;
     flex-grow: 1;
+
 }
+
+/* Suggestion Bar */
 
 .suggestion-bar {
     height: 60px;
@@ -269,4 +270,75 @@
     font-weight: 700;
     align-content: center;
     cursor: pointer;
+}
+
+/* Video area */
+
+.video-section {
+    margin: 0 16px;
+    padding: 24px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(324px, 1fr));
+    justify-content: center;
+}
+
+.video {
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.thumbnail {
+    background-color: aqua;
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.title {
+    height: auto;
+    padding: 10px 0 0 0;
+    display: flex;
+}
+
+.channel-logo {
+    padding-right: 10px;
+}
+
+.video-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding-bottom: 2px;
+}
+
+.channel-name , .views {
+    color: #aaaaaa;
+    font-size: 0.9rem;
+    padding: 3px 0;
+}
+
+.channel-user {
+    height: 32px;
+    width: 32px;
+    background-color: #212121;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+}
+
+.title i {
+    font-size: 20px;
+}
+
+.text {
+    flex-grow: 1;
+}
+
+/* Responsive */
+
+@media (min-width: 1300px) {
+    .video-section {
+        grid-template-columns: repeat(3, 1fr); /* lock to 3 on big screens */
+    }
 }
