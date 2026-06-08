@@ -297,13 +297,46 @@
 }
 
 .title {
-    height: 70px;
-    padding: 10px;
-
+    height: auto;
+    padding: 10px 0 0 0;
+    display: flex;
 }
 
+.title span {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 5px 10px;
+    flex-grow: 1;
+}
 
+.channel-logo {
+    padding-right: 10px;
+}
 
+.video-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding-bottom: 2px;
+}
+
+.channel-name , .views {
+    color: #aaaaaa;
+    font-size: 0.9rem;
+    padding: 3px 0;
+}
+
+.channel-user {
+    height: 32px;
+    width: 32px;
+    background-color: #212121;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+}
+
+.channel-user i {
+    font-size: 20px;
+}
 /* Responsive */
 
 @media (min-width: 1300px) {
