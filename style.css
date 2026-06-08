@@ -302,13 +302,6 @@
     display: flex;
 }
 
-.title span {
-    font-size: 1rem;
-    font-weight: 600;
-    padding: 5px 10px;
-    flex-grow: 1;
-}
-
 .channel-logo {
     padding-right: 10px;
 }
@@ -334,9 +327,14 @@
     align-content: center;
 }
 
-.channel-user i {
+.title i {
     font-size: 20px;
 }
+
+.text {
+    flex-grow: 1;
+}
+
 /* Responsive */
 
 @media (min-width: 1300px) {
