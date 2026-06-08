@@ -244,9 +244,8 @@
 /* Content Area */
 
 .content {
-    background-color: pink;
-    min-height: 200vh;
     flex-grow: 1;
+
 }
 
 /* Suggestion Bar */
@@ -278,4 +277,37 @@
 .video-section {
     margin: 0 16px;
     padding: 24px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(324px, 1fr));
+    justify-content: center;
+}
+
+.video {
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.thumbnail {
+    background-color: aqua;
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.title {
+    height: 70px;
+    padding: 10px;
+
+}
+
+
+
+/* Responsive */
+
+@media (min-width: 1300px) {
+    .video-section {
+        grid-template-columns: repeat(3, 1fr); /* lock to 3 on big screens */
+    }
 }
