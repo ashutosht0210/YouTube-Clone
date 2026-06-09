@@ -24,6 +24,8 @@
     background-color: #0f0f0f;
     padding: 0 16px 0 16px;
     z-index: 10;
+    opacity: 0.95;
+    backdrop-filter: blur(20px);
 }
 
 .menu-bar {
@@ -258,6 +260,8 @@
     align-items: center;
     position: sticky;
     top: 60px;
+    opacity: 0.95;
+    backdrop-filter: blur(20px);
 }
 
 .suggestion {
@@ -357,6 +361,7 @@
         border-radius: 50%;
         height: 40px;
         width: 40px;
+        
     }
     .search-btn i{
         font-size: 1.2rem;
