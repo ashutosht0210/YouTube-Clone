@@ -349,3 +349,16 @@
         grid-template-columns: repeat(3, 1fr); /* lock to 3 on big screens */
     }
 }
+@media (max-width: 550px) {
+    .search-input{
+        display: none;
+    }
+    .search-btn {
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+    }
+    .search-btn i{
+        font-size: 1.2rem;
+    }
+}
